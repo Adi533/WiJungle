@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.main {
+    background-color: black;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: rgb(0, 7, 99);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: rgb(100, 100, 100);
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+    background: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+.head {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: 2rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.line {
+    width: 600px;
+    margin: 15px auto;
+}
+
+.bar {
+    width: 600px;
+    margin: 15px auto;
+}
+
+.pieone {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pietwo {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.bar-para,.line-para,.pieone-para,.pietwo-para{
+    color: white;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+@media screen and (max-width: 650px) {
+    .bar{
+        width: 350px;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .line{
+        width: 350px;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .pieone{
+        width: 300px;
+    }
+    .pietwo{
+        width: 350px;
+        margin: auto;
+    }
+}
+
+
+
